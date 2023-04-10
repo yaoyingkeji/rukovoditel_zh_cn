@@ -9,3 +9,6 @@ rukovoditel 社区驱动，中文人工校对翻译，汉语本地化项目。
 下载本项目直接覆盖rukovoditel目录，即可更新.
 项目分支名对应rukovoditel版本
 
+## 安装
+将本项目中得中文翻译目录直接解压到rukovoditel目录覆盖即可
+

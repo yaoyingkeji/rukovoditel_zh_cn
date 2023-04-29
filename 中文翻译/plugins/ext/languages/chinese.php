@@ -375,7 +375,7 @@ define('TEXT_EXT_ADDING_NEW_RECORD','添加新记录时');
 define('TEXT_EXT_ADDITING_RECORD','编辑新记录时');
 define('TEXT_EXT_SEND_TO_NUMBER','发送到号码');
 define('TEXT_EXT_SEND_TO_NUMBER_INFO','请输入电话号码，以英文逗号分割。');
-define('TEXT_EXT_MESSAGE_TEXT','消息文本');
+define('TEXT_EXT_MESSAGE_TEXT','短信内容');
 define('TEXT_EXT_SEND_TO_RECORD_NUMBER','发送到记录中的号码');
 define('TEXT_EXT_SEND_TO_RECORD_NUMBER_INFO','请选择用作电话号码的字段。');
 define('TEXT_EXT_SEND_TO_USER_NUMBER','发送到指定用户');

@@ -1002,10 +1002,10 @@ define('TEXT_FIELDTYPE_DROPDOWN_MULTILEVEL_VALUE_DISPLAY','每个值都有自己
 define('TEXT_FIELDTYPE_DROPDOWN_MULTILEVEL_VALUE_DISPLAY_TIP','默认选定的值会在单列中显示。');
 define('TEXT_COLUMNS_IMPORT','导入列');
 define('TEXT_COLUMNS_IMPORT_INFO','简单列表可以填“1”，只导入第一列。多级列表（如国家/区域等）可以填“2”，导入前两列。表格内容不能为空。');
-define('TEXT_DASHBOARD_DEFAULT_MSG','<h3 class="page-title">欢迎！</h3><p>这是您的系统主页面，它现在还没有内容。您可以设定显示多个不同的报表和计数器。</p><p>要创建您的第一个报表，请点击左边导航栏中的“报表”链接，新建报表并设置在“我的首页”选项。</p>');
+define('TEXT_DASHBOARD_DEFAULT_MSG','<h3 class="page-title">欢迎！</h3><p>这是您的系统主页面，它现在还没有内容。您可以设定显示多个不同的报表和计数器。</p><p>要创建您的第一个报表，请点击左边导航栏中的“报表”菜单，新建报表并设置在“我的首页”选项。</p>');
 define('TEXT_DASHBOARD_DEFAULT_ADMIN_MSG','<h3 class="page-title">欢迎使用 Rukovoditel，您的商务管理新助理！</h3>
 <p>这是您的系统主页面，它现在还没有内容，但您可以设定显示多个不同的报表和计数器。</p>
-<p>要创建您的第一个报表，请点击左边导航栏中的“报表”链接，新建报表并设置在“我的首页”选项。</p>
+<p>要创建您的第一个报表，请点击左边导航栏中的“报表”菜单，新建报表并设置在“我的首页”选项。</p>
 <p>建议您访问<a href="https://docs.rukovoditel.net/index.php" target="_blank">帮助文档</a>，了解关于系统设置和使用方面的小知识。</p>
 <p>如果您有任何问题，欢迎联络我们！</p>
 <p><a href="https://www.rukovoditel.net" target="_blank">www.rukovoditel.net</a></p>');
@@ -1224,7 +1224,7 @@ define('TEXT_LISGIN_CONFIGURATION_INFO','您可以在本页面定制记录列表
 define('TEXT_TABLE','表格');
 define('TEXT_LIST','列表');
 define('TEXT_GRID','网格');
-define('TEXT_MOBILE','手机');
+define('TEXT_MOBILE','移动终端');
 define('TEXT_NOT_REQUIRED_FIELD','不是必填字段');
 define('TEXT_DISPLAY_FIELD_NAMES','显示字段名称');
 define('TEXT_ALIGN','对齐');

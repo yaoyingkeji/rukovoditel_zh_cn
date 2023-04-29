@@ -403,7 +403,7 @@ define('TEXT_EXT_ENTITIES','实体');
 define('TEXT_EXT_CHANGE_HISTORY_REPORT_ENTITIES_INFO','添加需要跟踪修订的实体。<br>请注意：仅当用户有权查看指定实体的所有记录时才会显示报表数据。');
 define('TEXT_EXT_TRACK_FIELDS_INFO','默认跟踪所有字段的修订。');
 define('TEXT_EXT_ALL_FIELDS','所有字段');
-define('TEXT_EXT_KEEP_HISTORY','保留历史记录');
+define('TEXT_EXT_KEEP_HISTORY','保留');
 define('TEXT_EXT_KEEP_HISTORY_DAYS_TIP','请输入天数。');
 define('TEXT_EXT_RESET','重置');
 define('TEXT_EXT_ENTITY_ALREADY_USED','实体“%s”已使用。');
@@ -570,7 +570,7 @@ define('TEXT_EXT_SAVE_CALL_URL_INFO','发生通话结束事件时调用这个网
 		duration：持续时间（秒数）
 		');
 define('TEXT_EXT_SHOW_CALL_SMS_HISTORY','显示通话和短信记录');
-define('TEXT_EXT_HISTORY','历史记录');
+define('TEXT_EXT_HISTORY','');
 define('TEXT_EXT_SMS','短信');
 define('TEXT_EXT_OUTGOING_CALL','去电');
 define('TEXT_EXT_TEMPLATES_FOR_IMPORT','导入模板');

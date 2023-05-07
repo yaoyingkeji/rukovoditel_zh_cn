@@ -60,7 +60,7 @@ define('TEXT_EXT_GANTT_END_DATE','结束日期');
 define('TEXT_EXT_GANTT_PROGRESS','进度');
 define('TEXT_EXT_GANTT_START_DATE_SHORT','开始');
 define('TEXT_EXT_GANTT_END_DATE_SHORT','结束');
-define('TEXT_EXT_GANTT_DURATION_SHORT','持续'); // NOT_SURE
+define('TEXT_EXT_GANTT_DURATION_SHORT','持续'); // 不确定
 define('TEXT_EXT_GANTT_DEPENDENCE_SHORT','依赖');
 define('TEXT_EXT_GANTT_CIRCULAR_REFERENCE','循环引用');
 define('TEXT_EXT_GANTT_CANNOT_DEPENDS','无法设置引用');
@@ -77,16 +77,16 @@ define('TEXT_EXT_GANTT_DELETE_NOT_ALLOWED','无法删除。您只能删除未存
 
 define('TEXT_EXT_REQUIRED_RUKOVODITEL_VERSION','Rukovoditel 版本 %s 或者更高版本才支持扩展包 %s。请升级 Rukvoditel。');
 
-//new defines for ext 1.2
+//1.2版本中扩展新定义的内容
 define('TEXT_EXT_MENU_COMMON_REPORTS','通用报表');
 define('TEXT_EXT_COMMON_REPORTS','通用报表');
-define('TEXT_EXT_COMMON_REPORTS_DESCRIPTION','通用报表类似标准报表，但可以指定一个或多个用户组，在其我的首页或菜单中显示。<a href="https://docs.rukovoditel.net/index.php?p=33" target="_blank">查看详情</a>。');
+define('TEXT_EXT_COMMON_REPORTS_DESCRIPTION','通用报表类似标准报表，但可以指定一个或多个用户组，在其我的首页或菜单中显示。<a href="https://docs.rukovoditel.net/index.php?p=33" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_COMMON_REPORTS_DASHBOARD_DESCRIPTION','由管理员建立和设置的通用报表。如果不需要，您可以在本列表中选择隐藏它们。');
 define('TEXT_EXT_COMMON_REPORTS_HELP','这是由管理员建立和设置的通用报表。您可以在我的首页页面隐藏这个报表。');
 define('TEXT_EXT_MENU_FUNCTIONS','函数');
 define('TEXT_EXT_FUNCTIONS','函数');
 define('TEXT_EXT_FUNCTION','函数');
-define('TEXT_EXT_FUNCTIONS_DESCRIPTION','您可以在本页面创建用于 MySQL 公式字段类型的附加函数。使用大括号将函数插入到公式，例如“{12} + [5]”，其中 12 是函数的编号。<a href="https://docs.rukovoditel.net/index.php?p=48" target="_blank">查看详情</a>。');
+define('TEXT_EXT_FUNCTIONS_DESCRIPTION','您可以在本页面创建用于 MySQL 公式字段类型的附加函数。使用大括号将函数插入到公式，例如“{12} + [5]”，其中 12 是函数的编号。<a href="https://docs.rukovoditel.net/index.php?p=48" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_BUTTON_ADD_NEW_FUNCTION','添加函数');
 define('TEXT_HEADING_FUNCTION_IFNO','函数信息');
 define('TEXT_EXT_FUNCTION_SUM','SUM：对值求和');
@@ -127,7 +127,7 @@ define('TEXT_EXT_ITEMS_UPDATING_COMPLETED','记录已修改');
 define('TEXT_EXT_UPDATE_FIELD_INPUT_TIP','请输入数字或操作加数字，例如：10, 20 或 +10, -2, *3, /2 或 +10%');
 define('TEXT_EXT_UPDATE_FIELD_DATE_TIP','请选择日期或输入天数，例如：+1 或 -2');
 
-//new defines for ext 1.3
+//1.3版本中扩展新定义的内容
 define('TEXT_EXT_TEMPLATES','模板');
 define('TEXT_EXT_ENTITIES_TEMPLATES','实体模板');
 define('TEXT_EXT_HEADING_TEMPLATE_IFNO','模板信息');
@@ -141,11 +141,11 @@ define('TEXT_EXT_TIMER_PAUSE','暂停');
 define('TEXT_EXT_TIMER_CONTINUE','继续');
 define('TEXT_EXT_TIMER_COLOSE','关闭');
 define('TEXT_EXT_TIMER_IS_ON','正在计时！');
-define('TEXT_EXT_MY_OPEN_TIMERS','我打开的计时器'); // NOT_SURE
+define('TEXT_EXT_MY_OPEN_TIMERS','我打开的计时器'); // 不确定
 define('TEXT_EXT_TIMER_RESET','重置');
 define('TEXT_EXT_TIMER_RESET_MSG','重置计时器？');
 define('TEXT_EXT_TIMER_COLOSE_MSG','关闭计时器？');
-define('TEXT_EXT_SPENT_HOURS','用时数'); // NOT_SURE
+define('TEXT_EXT_SPENT_HOURS','用时数'); // 不确定
 define('TEXT_EXT_MENU_TIMER','计时器');
 define('TEXT_EXT_TIMER_CONFIGURATION','计时器配置');
 define('TEXT_EXT_TIMER_CONFIGURATION_INFO','为每个实体组设置可以访问计时器的用户组。');
@@ -163,7 +163,7 @@ define('TEXT_EXT_EXPORT_TEMPLATES','导出模板');
 define('TEXT_EXT_PRINT_BUTTON_PDF_NOTE','注意：您可以使用打印按钮将文档保存为 PDF 格式。');
 define('TEXT_EXT_FUNCTIONS_DESCRIPTION_RELATED_FIELD','默认情况下，函数适用于选定实体的所有记录。您也可以将函数仅应用于关联记录，这时您需要指定关联记录的字段号，以英文冒号分割，例如：{12:22} 中的 22 就是关联记录的字段号。');
 
-//new defines for ext 1.4
+//1.4版本中扩展新定义的内容
 define('TEXT_EXT_MENU_PIVOTREPORTS','透视表');
 define('TEXT_EXT_PIVOTREPORTS','透视表');
 define('TEXT_EXT_PIVOTREPORTS_FIELDS','透视表字段');
@@ -171,7 +171,7 @@ define('TEXT_EXT_PIVOTREPORTS_FIELDS_NAME','报表中的名称');
 define('TEXT_EXT_PIVOTREPORTS_FIELDS_TIP','
 		检查用于创建报表的字段。使用“报表中的名称”字段指定在报表中显示的名称。<br>
 		对于日期类型的字段，您可以指定日期格式，请参阅 <a href="http://php.net/manual/function.date.php" target="_new">http://php.net/manual/function.date.php</a><br>
-		请注意，表格中的行和列会按照名称排序。因此在使用日期格式时，为正确排序，建议使用有前导零的数字格式，避免使用“M F G”格式。<br>
+		请注意，表格中的行和列会按照名称排序。因此在使用日期格式时，为正确排序，建议使用有前导零的数字格式，避免使用"M", "M F G"格式。<br>
 		日期格式还影响数据分组。例如，如果您想显示年度数据，您可以在日期格式中指定“Y”。');
 define('TEXT_EXT_PIVOTREPORTS_FIELDS_ERROR','无法显示报表。请检查报表中的字段。');
 define('TEXT_EXT_PIVOTREPORTS_NUMBER_FORMAT_INFO','输入：小数位数(0-9) / 小数点符号 / 千分位符号。有效的分隔符包括：点，逗号，空格（都是指英文符号）。');
@@ -181,8 +181,8 @@ define('TEXT_EXT_PIVOTREPORTS_UIRENDER_ERROR','生成透视表用户界面时发
 define('TEXT_EXT_PIVOTREPORTS_TOO_MANY','无法应用筛选，列表中有太多值了。');
 define('TEXT_EXT_PIVOTREPORTS_FILTER_RESULTS','搜索');
 define('TEXT_EXT_PIVOTREPORTS_TOTALS','总计');
-define('TEXT_EXT_PIVOTREPORTS_VS','与'); // NOT_SURE
-define('TEXT_EXT_PIVOTREPORTS_BY','由'); // NOT_SURE
+define('TEXT_EXT_PIVOTREPORTS_VS','与'); // 不确定
+define('TEXT_EXT_PIVOTREPORTS_BY','由'); // 不确定
 define('TEXT_EXT_PIVOTREPORTS_AGG_COUNT','计数');
 define('TEXT_EXT_PIVOTREPORTS_AGG_COUNT_UNIQUE','唯一值计数');
 define('TEXT_EXT_PIVOTREPORTS_AGG_LIST_UNIQUE','唯一值列表');
@@ -191,7 +191,7 @@ define('TEXT_EXT_PIVOTREPORTS_AGG_INTEGER_SUM','整数求和');
 define('TEXT_EXT_PIVOTREPORTS_AGG_AVERAGE','平均值');
 define('TEXT_EXT_PIVOTREPORTS_AGG_MINIMUM','最小值');
 define('TEXT_EXT_PIVOTREPORTS_AGG_MAXIMUM','最大值');
-define('TEXT_EXT_PIVOTREPORTS_AGG_SUM_OVER_SUM','对合计数求和'); // NOT_SURE
+define('TEXT_EXT_PIVOTREPORTS_AGG_SUM_OVER_SUM','对合计数求和'); // 不确定
 define('TEXT_EXT_PIVOTREPORTS_AGG_80_UPPER_BOUND','高于 80%');
 define('TEXT_EXT_PIVOTREPORTS_AGG_80_LOWER_BOUND','低于 80%');
 define('TEXT_EXT_PIVOTREPORTS_AGG_SUM_FRACTION_TOTAL','总分数求和');
@@ -201,7 +201,7 @@ define('TEXT_EXT_PIVOTREPORTS_AGG_COUNT_FRACTION_TOTAL','总分数计数');
 define('TEXT_EXT_PIVOTREPORTS_AGG_COUNT_FRACTION_ROWS','行分数计数');
 define('TEXT_EXT_PIVOTREPORTS_AGG_COUNT_FRACTION_COLUMNS','列分数计数');
 define('TEXT_EXT_PIVOTREPORTS_AGG_RENDERERS_TABLE','表格');
-define('TEXT_EXT_PIVOTREPORTS_AGG_RENDERERS_TABLE_BARCHART','表格条形图'); // NOT_SURE
+define('TEXT_EXT_PIVOTREPORTS_AGG_RENDERERS_TABLE_BARCHART','表格条形图'); // 不确定
 define('TEXT_EXT_PIVOTREPORTS_AGG_RENDERERS_HEATMAP','热力图');
 define('TEXT_EXT_PIVOTREPORTS_AGG_RENDERERS_ROW_HEATMAP','行热力图');
 define('TEXT_EXT_PIVOTREPORTS_AGG_RENDERERS_COL_HEATMAP','列热力图');
@@ -223,7 +223,7 @@ define('TEXT_EXT_OPEN_MY_CALENDAR','打开我的日历');
 define('TEXT_EXT_ONGOING_EVENT','正在进行的事项');
 define('TEXT_EXT_OPEN_CALENDAR','打开日历');
 
-//new defines for ext 1.5
+//1.5版本中扩展新定义的内容
 define('TEXT_EXT_MENU_TIMELINE_REPORTS','时间线');
 define('TEXT_EXT_TIMELINE_REPORTS','时间线报表');
 define('TEXT_EXT_USE_BACKGROUND','使用背景');
@@ -258,9 +258,9 @@ define('TEXT_EXT_FUNCTIONS_FORMULA_INFO_FIELDS','当公式中使用逻辑表达�
 define('TEXT_EXT_TEMPLATES_FIELDS_NOTES2','如果有多个关联记录，可以使用 {#10:Assigned<9,20>} 格式在表格视图中显示记录。');
 define('TEXT_EXT_FIELDS_IN_POPUP_TOOLTIP','在弹出提示框中显示的字段');
 
-//new defines for ext 1.6
+//1.6版本中扩展新定义的内容
 define('TEXT_EXT_PUBLIC_FORMS','公共表单');
-define('TEXT_EXT_PUBLIC_FORMS_DESCRIPTION','通过创建公共表单，您可以无需注册，直接向选定实体中输入数据。<a href="https://docs.rukovoditel.net/index.php?p=30" target="_blank">查看详情</a>。');
+define('TEXT_EXT_PUBLIC_FORMS_DESCRIPTION','通过创建公共表单，您可以无需注册，直接向选定实体中输入数据。<a href="https://docs.rukovoditel.net/index.php?p=30" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_PUBLIC_FORM','公共表单');
 define('TEXT_EXT_PAGE_TITLE','页面标题');
 define('TEXT_EXT_PB_SUCCESSFUL_SENDING_MESSAGE','成功发送消息');
@@ -280,7 +280,7 @@ define('TEXT_EXT_PB_ADMINISTRATOR','表单管理员');
 define('TEXT_EXT_PB_ADMIN_NOTIFICATION','发送通知');
 define('TEXT_EXT_PB_ADMIN_NOTIFICATION_INFO','如果您设置了客户的联络方式，那么邮件会显示由客户邮箱发出。');
 define('TEXT_EXT_PB_IFRAME_INFO','请设置表单“高度”。');
-define('TEXT_EXT_PB_CHECK_ENQUIRY','问询'); // NOT_SURE
+define('TEXT_EXT_PB_CHECK_ENQUIRY','问询'); // 不确定
 define('TEXT_EXT_PB_ALLOW_CHECK_ENQUIRY','启用问询');
 define('TEXT_EXT_PB_ALLOW_CHECK_ENQUIRY_INFO','启用问询后，客户可以通过编号检查问询，并且在状态发生改变收到通知。公共表单页面会有一个附加链接检查问询。');
 define('TEXT_EXT_PB_BUTTONS_CHECK_TITLE','检查按钮标题');
@@ -304,7 +304,7 @@ define('TEXT_EXT_FUNCTION_SELECT_INFO','默认情况下，函数会返回最近�
 define('TEXT_EXT_FUNCTION_SELECT','SELECT：返回字段值');
 define('TEXT_EXT_PROCESSES','自动化操作');
 define('TEXT_EXT_BUTTON_ADD_PROCESS','创建进程');
-define('TEXT_EXT_PROCESSES_DESCRIPTION','您可以将多个操作合并为一个进程。<a href="https://docs.rukovoditel.net/index.php?p=31" target="_blank">查看详情</a>。');
+define('TEXT_EXT_PROCESSES_DESCRIPTION','您可以将多个操作合并为一个进程。<a href="https://docs.rukovoditel.net/index.php?p=31" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_PROCESS_BUTTON_TITLE','按钮标题');
 define('TEXT_EXT_PROCESS_BUTTON_POSITION','按钮位置');
 define('TEXT_EXT_PROCESS_BUTTON_COLOR','按钮颜色');
@@ -342,7 +342,7 @@ define('TEXT_EXT_PROCESS_COMPLETED','进程“%s”已成功完成。更新了�
 define('TEXT_EXT_IN_MENU_SUBENTITY_REPORT','默认只有选择了父记录的时候才会显示嵌套实体的报表，选择后可以在左侧菜单显示报表，这样就可以显示所有嵌套实体内的记录了。');
 define('TEXT_EXT_MODULES','模块');
 define('TEXT_EXT_PAYMENT_MODULES','支付模块');
-define('TEXT_EXT_PAYMENT_MODULES_DESCRIPTION','您可以在本页面设置多个支付模块。在“自动化操作”页面，您可以将已安装的模块绑定到进程。<a href="https://docs.rukovoditel.net/index.php?p=57" target="_blank">查看详情</a>。');
+define('TEXT_EXT_PAYMENT_MODULES_DESCRIPTION','您可以在本页面设置多个支付模块。在“自动化操作”页面，您可以将已安装的模块绑定到进程。<a href="https://docs.rukovoditel.net/index.php?p=57" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_INSTALL_MODULE','安装模块');
 define('TEXT_EXT_BUTTON_INSTALL_MODULE','安装');
 define('TEXT_EXT_AVAILABLE_MODULES','可用模块');
@@ -367,7 +367,7 @@ define('TEXT_EXT_PAYMENT_MODULE','支付模块');
 define('TEXT_EXT_PAYMENT_NOTIFICATION','支付通知');
 define('TEXT_EXT_VERSION','版本');
 define('TEXT_EXT_SMS_MODULES','短信模块');
-define('TEXT_EXT_SMS_MODULES_DESCRIPTION','您可以在本页面安装多个短信模块。对于任意实体，在“' . link_to('发送短信规则',url_for('ext/modules/sms_rules')) . '”页面，您可以设置使用已安装的模块。<a href="https://docs.rukovoditel.net/index.php?p=58" target="_blank">查看详情</a>。');
+define('TEXT_EXT_SMS_MODULES_DESCRIPTION','您可以在本页面安装多个短信模块。对于任意实体，在“' . link_to('发送短信规则',url_for('ext/modules/sms_rules')) . '”页面，您可以设置使用已安装的模块。<a href="https://docs.rukovoditel.net/index.php?p=58" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_SMS_SETTINGS','短信设置');
 define('TEXT_EXT_ENABLE_SMS_NOTIFICATION','启用短信通知');
 define('TEXT_EXT_SMS_MODULE','短信模块');
@@ -382,15 +382,15 @@ define('TEXT_EXT_SEND_TO_USER_NUMBER','发送到指定用户');
 define('TEXT_EXT_SEND_TO_USER_NUMBER_INFO','请选择用户实体中用作电话号码的字段。');
 define('TEXT_EXT_SMS_SENDIGN_RULES','发送短信规则');
 define('TEXT_EXT_RULE','规则');
-define('TEXT_EXT_SMS_SENDIGN_RULES_INFO','为有需求的实体设置发送短信规则。<a href="https://docs.rukovoditel.net/index.php?p=58" target="_blank">查看详情</a>。');
+define('TEXT_EXT_SMS_SENDIGN_RULES_INFO','为有需求的实体设置发送短信规则。<a href="https://docs.rukovoditel.net/index.php?p=58" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_API','API');
 define('TEXT_EXT_API_ACCESS','API 权限');
-define('TEXT_EXT_API_ACCESS_INFO','您可以在本页面启用 API 权限。您可以使用 API 密钥，通过 API 管理数据，而无需登录到个人账号。<a href="https://docs.rukovoditel.net/index.php?p=52" target="_blank">查看详情</a>。');
+define('TEXT_EXT_API_ACCESS_INFO','您可以在本页面启用 API 权限。您可以使用 API 密钥，通过 API 管理数据，而无需登录到个人账号。<a href="https://docs.rukovoditel.net/index.php?p=52" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_ALLOW_API','允许访问 API');
 define('TEXT_EXT_API_KEY','API 密钥');
 define('TEXT_EXT_GENERATE','生成');
 define('TEXT_EXT_CHANGE_HISTORY','更改历史');
-define('TEXT_EXT_CHANGE_HISTORY_REPORT_INFO','您可以创建一个新报表跟踪实体的更改历史。请点击报表名称，并设置实体和字段。<a href="https://docs.rukovoditel.net/index.php?p=35" target="_blank">查看详情</a>。');
+define('TEXT_EXT_CHANGE_HISTORY_REPORT_INFO','您可以创建一个新报表跟踪实体的更改历史。请点击报表名称，并设置实体和字段。<a href="https://docs.rukovoditel.net/index.php?p=35" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_BUTTON_ADD_REPORT','添加报表');
 define('TEXT_EXT_REPORT_POSITION','报表位置');
 define('TEXT_EXT_IN_MENU','在菜单');
@@ -411,14 +411,14 @@ define('TEXT_EXT_TC_REPORT_POSITION_HEADER_NOTE','在顶部菜单显示当天的
 define('TEXT_EXT_FILE_STORAGE_MODULES','文件存储模块');
 define('TEXT_EXT_FILE_STORAGE_RULES','文件存储规则');
 define('TEXT_EXT_MODULE','模块');
-define('TEXT_EXT_FILE_STORAGE_MODULES_DESCRIPTION','您可以安装多个文件存储模块。在“' . link_to('文件存储规则',url_for('ext/modules/file_storage_rules')) . '”页面，您可以设置使用已安装的模块。<a href="https://docs.rukovoditel.net/index.php?p=59" target="_blank">查看详情</a>。');
+define('TEXT_EXT_FILE_STORAGE_MODULES_DESCRIPTION','您可以安装多个文件存储模块。在“' . link_to('文件存储规则',url_for('ext/modules/file_storage_rules')) . '”页面，您可以设置使用已安装的模块。<a href="https://docs.rukovoditel.net/index.php?p=59" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_FILE_STORAGE_RULES_INFO','如果对某个字段创建了规则，那文件就会添加到发往存储的队列中。要真正的移动文件，需要定时运行<a href="https://docs.rukovoditel.net/index.php?p=70" target="_blank">Cron</a>（例如每 5 分钟运行一次）：');
 define('TEXT_EXT_DESIGN_CSS_NOTE','输入自定义 CSS 样式表');
 define('TEXT_EXT_SPACE_TO_RESET','输入空格可重置日期');
 
-//new defines for ext 1.7
+//1.7版本中扩展新定义的内容
 define('TEXT_EXT_CURRENCIES','货币');
-define('TEXT_EXT_CURRENCIES_INFO','货币用于转换数字字段的值。安装后的货币在字段设置中可用。<a href="https://docs.rukovoditel.net/index.php?p=50" target="_blank">查看详情</a>。');
+define('TEXT_EXT_CURRENCIES_INFO','货币用于转换数字字段的值。安装后的货币在字段设置中可用。<a href="https://docs.rukovoditel.net/index.php?p=50" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_CURRENCIES_INFO_FORMULA','可以使用 [货币代码] 变量在公式中使用货币值，例如 [USD]。');
 define('TEXT_EXT_CURRENCIES_MODULE_INFO','请选择默认货币换算的模块。<br><br>自动货币换算需要安装计划任务（<a href="https://docs.rukovoditel.net/index.php?p=70" target="_blank">Cron</a>）。');
 define('TEXT_EXT_CURRENCY','货币');
@@ -451,18 +451,18 @@ define('TEXT_EXT_TOTAL','总计');
 define('TEXT_EXT_CLICK_CHART_BAR','点击图表线条可获取记录列表。');
 define('TEXT_EXT_TABLE','表格');
 define('TEXT_EXT_FUNNEL','漏斗');
-define('TEXT_EXT_CONVERSION_STAGE','转换阶段'); // NOT_SURE
-define('TEXT_EXT_CONVERSION_STAGE_INFO','从上一阶段转换。'); // NOT_SURE
+define('TEXT_EXT_CONVERSION_STAGE','转换阶段'); // 不确定
+define('TEXT_EXT_CONVERSION_STAGE_INFO','从上一阶段转换。'); // 不确定
 define('TEXT_EXT_ENTER_MANUALLY','手动输入');
 define('TEXT_EXT_ENTER_MANUALLY_INFO','可以在进程确认窗口输入值。');
 define('TEXT_EXT_MANUALLY_ENTERED','手动输入');
-define('TEXT_EXT_PROCESS_ALLOW_COMMENTS_INFO_2','请注意，在进程实体指定操作后会添加评论。'); // NOT_SURE
+define('TEXT_EXT_PROCESS_ALLOW_COMMENTS_INFO_2','请注意，在进程实体指定操作后会添加评论。'); // 不确定
 define('TEXT_EXT_PREVIEW_PRCESS_ACTIONS_INFO','仅管理员可见。');
 define('TEXT_EXT_TEMPLATES_EXPORT_NUM2STR_NOTES','使用 num2str_[货币代码]() 函数显示文字求和数。例如：num2str_usd({#251:Budget})。<br>您可以创建自己的数字转换函数。 本地化文件在文件夹：includes/languages/num2str/。建议在现有文件的基础上复制一个进行修改。');
 
-//new defines for ext 2.2
+//2.2版本中扩展新定义的内容
 define('TEXT_EXT_KANBAN','看板');
-define('TEXT_EXT_KANBAN_DESCRIPTION','这种类型的报表以看板形式显示数据。<a href="https://docs.rukovoditel.net/index.php?p=41" target="_blank">查看详情</a>。');
+define('TEXT_EXT_KANBAN_DESCRIPTION','这种类型的报表以看板形式显示数据。<a href="https://docs.rukovoditel.net/index.php?p=41" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_COLUMN_WIDTH','列宽度');
 define('TEXT_EXT_PAGE_ORIENTATION','页面方向');
 define('TEXT_EXT_PAGE_ORIENTATION_PORTRAIT','纵向');
@@ -476,11 +476,11 @@ define('TEXT_EXT_DISABLE_SUBMIT_PB','禁用提交表单');
 define('TEXT_EXT_DISABLE_SUBMIT_PB_INFO','仅问询表单可用。');
 define('TEXT_EXT_SAMRT_INPUT','智能输入');
 define('TEXT_EXT_SAMRT_INPUT_RULES','输入规则');
-define('TEXT_EXT_SMART_INTPUT_MODULES_DESCRIPTION','这些模块用于与自动检查输入数据、修正数据、显示提示等服务进行交互。<a href="https://docs.rukovoditel.net/index.php?p=60" target="_blank">查看详情</a>。');
-define('TEXT_EXT_SAMRT_INPUT_RULES_INFO','为智能输入模块设置规则。<a href="https://docs.rukovoditel.net/index.php?p=60" target="_blank">查看详情</a>。');
+define('TEXT_EXT_SMART_INTPUT_MODULES_DESCRIPTION','这些模块用于与自动检查输入数据、修正数据、显示提示等服务进行交互。<a href="https://docs.rukovoditel.net/index.php?p=60" target="_blank"><u>查看详情。</u></a>');
+define('TEXT_EXT_SAMRT_INPUT_RULES_INFO','为智能输入模块设置规则。<a href="https://docs.rukovoditel.net/index.php?p=60" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_DEBUG_MODE','调试模式');
 
-//new defines for ext 2.3
+//2.3版本中扩展新定义的内容
 define('TEXT_EXT_NOTIFY_WHEN_FIELD_VALUE_CHANGES','字段值改变时通知');
 define('TEXT_EXT_NOTIFY_WHEN_FIELD_VALUE_CHANGES_INFO','如果未选择，则检查所有值。');
 define('TEXT_EXT_RECURRING_TASKS','循环任务');
@@ -494,25 +494,25 @@ define('TEXT_EXT_INTERVAL','间隔');
 define('TEXT_EXT_EVENT_REPEAT_LIMIT_SHORT','重复');
 define('TEXT_EXT_AUTOMATICALLY','自动化');
 define('TEXT_EXT_MY_RECURRING_TASKS','我的循环任务');
-define('TEXT_EXT_RECURRING_TASKS_INFO','本页面显示所有循环任务。<a href="https://docs.rukovoditel.net/index.php?p=46" target="_blank">查看详情</a>。');
+define('TEXT_EXT_RECURRING_TASKS_INFO','本页面显示所有循环任务。<a href="https://docs.rukovoditel.net/index.php?p=46" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_RECURRING_TASKS_INFO_CRON','使用本功能前，您需要设置好每小时执行一次<a href="https://docs.rukovoditel.net/index.php?p=70" target="_blank">Cron</a>：');
 define('TEXT_EXT_EXCLUDE_CHOICES','排除选项');
 define('TEXT_EXT_IMAGE_MAP','图像映射');
-define('TEXT_EXT_IMAGE_MAP_DESCRIPTION','这种类型的报表用于将数据显示为图像映射。<a href="https://docs.rukovoditel.net/index.php?p=42" target="_blank">查看详情</a>。');
+define('TEXT_EXT_IMAGE_MAP_DESCRIPTION','这种类型的报表用于将数据显示为图像映射。<a href="https://docs.rukovoditel.net/index.php?p=42" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_MAP_REPORTS','地图');
-define('TEXT_EXT_MAP_REPORTS_INFO','此报表在地图上显示选定实体内的所有标签。<a href="https://docs.rukovoditel.net/index.php?p=43" target="_blank">查看详情</a>。');
+define('TEXT_EXT_MAP_REPORTS_INFO','此报表在地图上显示选定实体内的所有标签。<a href="https://docs.rukovoditel.net/index.php?p=43" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_MAP_REPORTS_BACKGROUND_COLOR_INFO','地图上的标记将使用列表中的背景值。');
 define('TEXT_EXT_IPAGES_CODE_INFO','使用本字段在信息页面插入自定义 HTML 或 JavaScript 代码。');
 define('TEXT_EXT_PB_NOTIFY_FIELD_INSERT','选择发送信息的选项或留空。');
 define('TEXT_EXT_MIND_MAP','思维导图');
-define('TEXT_EXT_MIND_MAP_DESCRIPTION','这种类型的报表用于将数据以思维导图形式显示。<a href="https://docs.rukovoditel.net/index.php?p=44" target="_blank">查看详情</a>。');
+define('TEXT_EXT_MIND_MAP_DESCRIPTION','这种类型的报表用于将数据以思维导图形式显示。<a href="https://docs.rukovoditel.net/index.php?p=44" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_COMMON_REPORTS_GROUPS','通用报表组');
 define('TEXT_EXT_COMMON_REPORTS_GROUPS_INFO','设置报表后以用户身份登录，以便验证该报表能否正常显示。');
 
-//new defines for ext 2.4
+//2.4版本中扩展新定义的内容
 define('TEXT_EXT_MAILING_SERVICES','邮件营销服务');
 define('TEXT_EXT_SUBSCRIBE_RULES','订阅规则');
-define('TEXT_EXT_MAILING_SERVICES_DESCRIPTION','集成的邮件营销服务可以实现客户订阅自动化。安装模块后，请设置好订阅规则。<a href="https://docs.rukovoditel.net/index.php?p=61" target="_blank">查看详情</a>。');
+define('TEXT_EXT_MAILING_SERVICES_DESCRIPTION','集成的邮件营销服务可以实现客户订阅自动化。安装模块后，请设置好订阅规则。<a href="https://docs.rukovoditel.net/index.php?p=61" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_SUBSCRIBE_RULES_INFO','为有需求的实体设置订阅规则。');
 define('TEXT_EXT_LIST_OF_CONTACTS','联系人列表');
 define('TEXT_EXT_LIST_OF_CONTACTS_INFO','在邮件模块中设置');
@@ -520,7 +520,7 @@ define('TEXT_EXT_EXTRA_FIELDS','附加字段');
 define('TEXT_EXT_EXTRA_FIELDS_SUBSCRIBE_INFO','每一行输入一个字段。例如：<br>FNAME=[12]<br>LNAME=[13]<br>其中 12 和 13 就是输入字段。');
 define('TEXT_EXT_SELECT_EMAIL_FIELD','请选择储存邮箱地址的字段。');
 define('TEXT_EXT_EMAIL_SENDING_RULES','邮件发送规则');
-define('TEXT_EXT_EMAIL_SENDING_RULES_INFO','您可以设置在添加或编辑记录时附加的邮件发送规则。<a href="https://docs.rukovoditel.net/index.php?p=75" target="_blank">查看详情</a>。');
+define('TEXT_EXT_EMAIL_SENDING_RULES_INFO','您可以设置在添加或编辑记录时附加的邮件发送规则。<a href="https://docs.rukovoditel.net/index.php?p=75" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_SEND_TO_USERS','发送给用户');
 define('TEXT_EXT_SEND_TO_ASSIGNED_USERS','发送给指派的用户');
 define('TEXT_EXT_SEND_TO_USERS_INFO','从列表中选择用户');
@@ -528,7 +528,7 @@ define('TEXT_EXT_PROCESS_ACTION_COPY_ITEM','实体“%s”：复制当前记录'
 define('TEXT_EXT_COPY_RELATE_RECORDS','复制关联记录');
 define('TEXT_EXT_COPY_SUB_ENTITIES','复制子实体');
 define('TEXT_EXT_COPY_COMMENTS','复制评论');
-define('TEXT_EXT_ACCESS_TO_ASSIGNED_USERS','指派用户权限'); // NOT_SURE
+define('TEXT_EXT_ACCESS_TO_ASSIGNED_USERS','指派用户权限'); // 不确定
 define('TEXT_EXT_APPLY_FIELDS_ACCESS_RULES','应用字段访问规则');
 define('TEXT_EXT_APPLY_FIELDS_ACCESS_RULES_TIP','进程表单会应用字段访问规则。');
 define('TEXT_EXT_SUCCESS_MESSAGE','成功信息');
@@ -547,14 +547,14 @@ define('TEXT_EXT_INCOMING_CALL','来电');
 define('TEXT_EXT_SAVE_CALL','保存通话');
 define('TEXT_EXT_CALL_HISTORY','通话记录');
 define('TEXT_EXT_TELEPHONY_MODULES','电话模块');
-define('TEXT_EXT_TELEPHONY_MODULES_DESCRIPTION','设置与电话服务的交互，并通过点击拨打电话，在来电时显示客户信息，并保存通话记录​​。<a href="https://docs.rukovoditel.net/index.php?p=62" target="_blank">查看详情</a>。');
+define('TEXT_EXT_TELEPHONY_MODULES_DESCRIPTION','设置与电话服务的交互，并通过点击拨打电话，在来电时显示客户信息，并保存通话记录​​。<a href="https://docs.rukovoditel.net/index.php?p=62" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_TELEPHONY_MODULE','电话模块');
 define('TEXT_EXT_FIELDTYPE_PHONE_TELEPHONY_MODULE_INFO','请选择按电话号码打电话的模块。');
 define('TEXT_EXT_FIELDTYPE_PHONE_SMS_MODULE_INFO','选择发送短信的模块。发送短信的图标会在电话号码旁边显示。');
 define('TEXT_EXT_SEND_SMS','发送短信');
 define('TEXT_EXT_MESSAGE_SENT','已发送信息');
 define('TEXT_EXT_TELEPHONY_SETTINGS','电话设置');
-define('TEXT_EXT_INCOMING_CALL_INFO','设置来电时重定向到客户信息页面。您需要指定客户实体和“电话号码”类型的字段，此后发生“来电”事件时会调用特定的网址。<a href="https://docs.rukovoditel.net/index.php?p=62" target="_blank">查看详情</a>。');
+define('TEXT_EXT_INCOMING_CALL_INFO','设置来电时重定向到客户信息页面。您需要指定客户实体和“电话号码”类型的字段，此后发生“来电”事件时会调用特定的网址。<a href="https://docs.rukovoditel.net/index.php?p=62" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_INCOMING_URL_INFO','发生来电事件时使用这个网址。占位符 %NUMBER% 表示手机号码。');
 define('TEXT_EXT_INCOMING_CALL_PHONE_INFO','请指定来电时搜索“电话号码”类型的字段。');
 define('TEXT_EXT_RECORD_WITH_PHONE_NOT_FOUND','未找到号码“%s”的相关记录。');
@@ -574,17 +574,17 @@ define('TEXT_EXT_HISTORY','通话和短信记录');
 define('TEXT_EXT_SMS','短信');
 define('TEXT_EXT_OUTGOING_CALL','去电');
 define('TEXT_EXT_TEMPLATES_FOR_IMPORT','导入模板');
-define('TEXT_EXT_TEMPLATES_FOR_IMPORT_INFO','该模板代表导入数据时自动对应的列与字段之间的关系。<a href="https://docs.rukovoditel.net/index.php?p=21" target="_blank">查看详情</a>。');
+define('TEXT_EXT_TEMPLATES_FOR_IMPORT_INFO','该模板代表导入数据时自动对应的列与字段之间的关系。<a href="https://docs.rukovoditel.net/index.php?p=21" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_TEMPLATE','模板');
 define('TEXT_EXT_TEMPLATES_EXPORT_COMMENTS','使用 {#comments:Comments} or {#comments:Comments[2]} 格式导出评论，其中 2 代表评论数量。');
 
-//new defines for ext 2.5
+//2.5版本中扩展新定义的内容
 define('TEXT_EXT_MAIL_INTEGRATION','邮件集成');
 define('TEXT_EXT_MAIL_ACCOUNTS','邮箱账号');
-define('TEXT_EXT_MAIL_ACCOUNTS_INFO','添加一个或多个电子邮箱账号。完成后，点击账号名称并指派管理邮箱的用户。<a href="https://docs.rukovoditel.net/index.php?p=32" target="_blank">查看详情</a>。');
+define('TEXT_EXT_MAIL_ACCOUNTS_INFO','添加一个或多个电子邮箱账号。完成后，点击账号名称并指派管理邮箱的用户。<a href="https://docs.rukovoditel.net/index.php?p=32" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_IMAP_SERVER','邮件服务器');
 define('TEXT_EXT_IMAP_SERVER_INFO','remote_system_name [":" port] [flags]<br>mail.server.com:143<br>imap.gmail.com:993/imap/ssl<br>mail.server.com:143/notls');
-define('TEXT_EXT_MAILBOX','信箱区'); // NOT_SURE
+define('TEXT_EXT_MAILBOX','信箱区'); // 不确定
 define('TEXT_EXT_ENTER_EMAIL','输入电子邮件地址。');
 define('TEXT_EXT_CHECK_CONNECTION','检查连接');
 define('TEXT_EXT_IMAP_EXTENSION_IS_REQUIRED','需要 PHP IMAP 扩展');
@@ -607,7 +607,7 @@ define('TEXT_EXT_EMAIL_SUBJECT','主题');
 define('TEXT_EXT_EMAIL_FROM','从');
 define('TEXT_EXT_EMAIL_TO','到');
 define('TEXT_EXT_RELATD_ENTITIES','关联实体');
-define('TEXT_EXT_MAIL_RELATD_ENTITIES_INFO','将实体与邮箱账号关联后，您就可以创建与邮件相关的记录。<a href="https://docs.rukovoditel.net/index.php?p=32" target="_blank">查看详情</a>。');
+define('TEXT_EXT_MAIL_RELATD_ENTITIES_INFO','将实体与邮箱账号关联后，您就可以创建与邮件相关的记录。<a href="https://docs.rukovoditel.net/index.php?p=32" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_MAIL_ACCOUNT','邮箱账号');
 define('TEXT_EXT_MAIL_BODY','正文');
 define('TEXT_EXT_AUTO_CREATE_RECORD','自动创建记录');
@@ -622,7 +622,7 @@ define('TEXT_EXT_AUTO_REPLY_INFO','向收到的每封电子邮件发送自动回
 define('TEXT_EXT_EMAIL_SUBJECT_RE','回复：');
 define('TEXT_EXT_EMAIL_SUBJECT_FWD','转发：');
 define('TEXT_EXT_RELATED_EMAILS','关联邮件');
-define('TEXT_EXT_STARRED','已加星标'); // NOT_SURE
+define('TEXT_EXT_STARRED','已加星标'); // 不确定
 define('TEXT_EXT_SENT','已发送');
 define('TEXT_EXT_TRASH','垃圾箱');
 define('TEXT_EXT_ALL_MAIL_ACCOUNTS','所有邮箱账号');
@@ -647,9 +647,9 @@ define('TEXT_EXT_ENTER_EMAIL_OR_DOMAIN','输入您的电子邮件地址或域名
 define('TEXT_EXT_AUTO_CREATE_RELATED_RECORD','自动创建关联记录');
 define('TEXT_EXT_ENTER_MANUALLY_ONLY','您只能手动输入此字段');
 define('TEXT_EXT_COMMON_FILTERS','通用筛选条件');
-define('TEXT_EXT_COMMON_FILTERS_INFO','您可以在本页面为特定用户（管理者、员工等）设置筛选条件，这样他们就不需要浪费时间去创建“标准化”筛选条件了——因为这些条件早已设置好，并与账号系统相对应了。<a href="https://docs.rukovoditel.net/index.php?p=92" target="_blank">查看详情</a>。');
+define('TEXT_EXT_COMMON_FILTERS_INFO','您可以在本页面为特定用户（管理者、员工等）设置筛选条件，这样他们就不需要浪费时间去创建“标准化”筛选条件了——因为这些条件早已设置好，并与账号系统相对应了。<a href="https://docs.rukovoditel.net/index.php?p=92" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_PB_URL_PARAMS_INFO','您可以在网址中为公共表单指定预定义的字段值。<br>例如：&fields[13]=value&parent_item_id=50<br>其中 13 是字段编号，value 是字段值（对于列表则使用选项编号），parent_item_id 是父记录编号');
-define('TEXT_EXT_EXPORT_TEMPLATES_INFO','您可以在本页面创建用于打印或导出数据的表单。创建模板后，请点击名称进行调整。<a href="https://docs.rukovoditel.net/index.php?p=55" target="_blank">查看详情</a>。');
+define('TEXT_EXT_EXPORT_TEMPLATES_INFO','您可以在本页面创建用于打印或导出数据的表单。创建模板后，请点击名称进行调整。<a href="https://docs.rukovoditel.net/index.php?p=55" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_PRINT_BUTTON','“打印”按钮');
 define('TEXT_EXT_PRINT_MULTIPLE_RECORDS','打印多条记录');
 define('TEXT_EXT_EACH_RECORD_FROM_NEW_PAGE','每条记录一张页面');
@@ -665,17 +665,17 @@ define('TEXT_EXT_APPLY_FIELDS_DISPLAY_RULES','应用字段显示规则');
 define('TEXT_EXT_APPLY_FIELDS_DISPLAY_RULES_TIP','在进程表单应用字段显示规则。');
 define('TEXT_EXT_MAIL_ENTITIES_RULES_INFO','设置自动创建关联记录的规则。默认为所有电子邮件创建关联记录。');
 
-//new defines for ext 2.6
+//2.6版本中扩展新定义的内容
 define('TEXT_EXT_IPAGES_ACCESS_CONFIGURATION','设置能够管理信息页面的用户。');
 define('TEXT_IPAGE_DESCRIPTION_TIP','在描述中拖放图片即可在文本中插入图像。<br>描述中附件文件的文件名会自动转换为链接。');
 define('TEXT_EXT_PIVOT_СALENDAR','透视表日历');
-define('TEXT_EXT_PIVOT_СALENDAR_INFO','这种类型的报表可以将多个实体组合到一个日历中。创建报表后，请点击名称并添加所需的实体。<a href="https://docs.rukovoditel.net/index.php?p=91" target="_blank">查看详情</a>。');
+define('TEXT_EXT_PIVOT_СALENDAR_INFO','这种类型的报表可以将多个实体组合到一个日历中。创建报表后，请点击名称并添加所需的实体。<a href="https://docs.rukovoditel.net/index.php?p=91" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_DISPLYA_IN_MAIN_MENU','在主菜单中显示');
 define('TEXT_EXT_DISPLYA_IN_MAIN_MENU_TIP','报表默认在“报表”区域显示。');
 define('TEXT_EXT_PIVOT_СALENDAR_ENTITIES_INFO','添加所需的实体，点击实体名称并为每个实体设置筛选条件。');
 define('TEXT_EXT_DISPLAY_ENTITY_NAME','显示实体名称');
 define('TEXT_EXT_ITEM_PIVOT_TABLES','记录透视表');
-define('TEXT_EXT_ITEM_PIVOT_TABLES_INFO','这种类型的报表可以为关联记录建立数据透视表，并直接在记录信息页面上显示。创建报表后，请点击名称并添加计算公式。<a href="https://docs.rukovoditel.net/index.php?p=86" target="_blank">查看详情</a>。');
+define('TEXT_EXT_ITEM_PIVOT_TABLES_INFO','这种类型的报表可以为关联记录建立数据透视表，并直接在记录信息页面上显示。创建报表后，请点击名称并添加计算公式。<a href="https://docs.rukovoditel.net/index.php?p=86" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_ITEM_PIVOT_TABLES_ENTITY_1_TIP','选择需要显示汇总报表的元素实体。');
 define('TEXT_EXT_ITEM_PIVOT_TABLES_ENTITY_2_TIP','选择数据来源的实体。');
 define('TEXT_EXT_ITEM_PIVOT_TABLES_FIELDS_TIP','选择分组数据的字段。');
@@ -698,10 +698,10 @@ define('TEXT_EXT_PROCESS_ACTION_MOVE_ITEM','实体“%s”：移动当前记录'
 define('TEXT_EXT_GLOBAL_SEARCH','全局搜索');
 define('TEXT_EXT_USE_GLOBAL_SEARCH','使用全局搜索');
 define('TEXT_EXT_GLOBAL_SEARCH_ACCESS_TIP','选择能够使用全局搜索的用户组。');
-define('TEXT_EXT_GLOBAL_SEARCH_INFO','全局搜索返回已配置实体中所有匹配结果的列表。启用后请配置需要搜索的实体。<a href="https://docs.rukovoditel.net/index.php?p=85" target="_blank">查看详情</a>。');
+define('TEXT_EXT_GLOBAL_SEARCH_INFO','全局搜索返回已配置实体中所有匹配结果的列表。启用后请配置需要搜索的实体。<a href="https://docs.rukovoditel.net/index.php?p=85" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_GLOBAL_SEARCH_ENTITIES_INFO','配置用于全局搜索的实体和字段。如果用户无权访问实体，则自动从搜索中排除。<br>请注意：此功能会增加服务器负载，请只添加必要的实体。');
 define('TEXT_EXT_XML_EXPORT','XML 导出');
-define('TEXT_EXT_XML_EXPORT_INFO','创建以 XML 格式导出数据时用到的模板。您可以通过选择记录手动导出数据，或使用特殊网址自动导出数据。<a href="https://docs.rukovoditel.net/index.php?p=87" target="_blank">查看详情</a>。');
+define('TEXT_EXT_XML_EXPORT_INFO','创建以 XML 格式导出数据时用到的模板。您可以通过选择记录手动导出数据，或使用特殊网址自动导出数据。<a href="https://docs.rukovoditel.net/index.php?p=87" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_EXPORT_BUTTON','“导出”按钮');
 define('TEXT_EXT_XML_EXPORT_PUBLIC_ACCESS_TIP','如果允许公开访问，则可以通过模板列表中显示的特殊链接进行导出。');
 define('TEXT_EXT_XML_EXPORT_START_TIP','用于插入根元素。');
@@ -726,8 +726,8 @@ define('TEXT_EXT_FROM_ENTITY','来源实体');
 define('TEXT_EXT_TO_ENTITY','目标实体');
 define('TEXT_EXT_CLONE_FIELDS_SCHEMA_TIP','每行指定一条字段关系，格式为：<br>
 [13]=[14]<br>
-13：来源实体的字段编号<br>
-14：目标实体的字段编号');
+13 - 来源实体的字段编号<br>
+14 - 目标实体的字段编号');
 define('TEXT_EXT_SEND_TO_EMAIL','发送到邮箱');
 define('TEXT_EXT_SEND_TO_ASSIGNED_EMAIL','发送到指定的邮箱');
 define('TEXT_EXT_SEND_TO_EMAIL_TIP','每行输入一个电子邮箱地址。');
@@ -737,14 +737,14 @@ define('TEXT_EXT_CALENDAR_USE_VIEW_INFO','默认所有模式都可用。');
 define('TEXT_EXT_GRID_WIDTH','网格宽度');
 define('TEXT_EXT_RELATED_CONTACTS','相关联系人');
 define('TEXT_EXT_CALENDAR_REPORT','日历报表');
-define('TEXT_EXT_CALENDAR_REPORT_INFO','您可以为包含开始日期和结束日期字段的任意实体创建日历视图。<a href="https://docs.rukovoditel.net/index.php?p=90" target="_blank">查看详情</a>。');
+define('TEXT_EXT_CALENDAR_REPORT_INFO','您可以为包含开始日期和结束日期字段的任意实体创建日历视图。<a href="https://docs.rukovoditel.net/index.php?p=90" target="_blank"><u>查看详情。</u></a>');
 
-//new defines for ext 2.7
+//2.7版本中扩展新定义的内容
 define('TEXT_EXT_TRANSLITERATE_FILENAME','音译文件名');
 define('TEXT_EXT_PROCESS_ACTION_CLONE_ITEM','实体“%s”：克隆当前记录');
 define('TEXT_EXT_CLONE_TO_ENTITY','克隆到实体：');
 define('TEXT_EXT_XML_IMPORT','XML 导入');
-define('TEXT_EXT_XML_IMPORT_INFO','您可以从任意结构的 XML 文件中导入数据。<a href="https://docs.rukovoditel.net/index.php?p=96" target="_balnk">查看详情</a>。');
+define('TEXT_EXT_XML_IMPORT_INFO','您可以从任意结构的 XML 文件中导入数据。<a href="https://docs.rukovoditel.net/index.php?p=96" target="_balnk"><u>查看详情。</u></a>');
 define('TEXT_EXT_XML_PATH_TO_DATA_ARRAY','数据数组的 XML 路径');
 define('TEXT_EXT_XML_PATH_TO_VALUE','值的 XML 路径');
 define('TEXT_EXT_XML_IMPORT_PREVIEW','XML 导入预览');
@@ -759,7 +759,7 @@ define('TEXT_EXT_UPDATED_RECORDS','修改记录');
 define('TEXT_EXT_PROCESS_ACTION_LINK_RECORDS_BY_MYSQL_QUERY','关联记录“%s”：通过 MySQL 查询链接记录');
 define('TEXT_EXT_PROCESS_ACTION_LINK_RECORDS_BY_MYSQL_QUERY_INFO','在指定条件下选中的记录会自动链接到当前记录。您可以在条件中使用当前记录的字段值。例如：field_12 = [126]<br>其中 12 是链接记录的字段编号，126 是当前记录的字段编号。');
 define('TEXT_EXT_PIVOT_MAP_REPORT','透视图报表');
-define('TEXT_EXT_PIVOT_MAP_REPORT_INFO','该报表在地图上显示链接实体的所有标签。创建后，请点击报表名称并添加所需的实体。<a href="https://docs.rukovoditel.net/index.php?p=97" target="_blank">查看详情</a>。');
+define('TEXT_EXT_PIVOT_MAP_REPORT_INFO','该报表在地图上显示链接实体的所有标签。创建后，请点击报表名称并添加所需的实体。<a href="https://docs.rukovoditel.net/index.php?p=97" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_MARKER_COLOR','标记颜色');
 define('TEXT_EXT_ENTITIES_DISPLAY_LEGEND_TIP','设置的实体背景色会显示在报表上方。');
 define('TEXT_EXT_MARKER_ICON','标记图标');
@@ -774,7 +774,7 @@ define('TEXT_EXT_INSTANT_NOTIFICATION_INFO','您需要在浏览器中授予本�
 define('TEXT_EXT_NEW_MSG_IN_CHAT','新讨论信息（%s）');
 define('TEXT_EXT_RUN_PROCESS_AFTER_RECORD_INSERT','添加记录后运行进程');
 define('TEXT_EXT_CALL_TO_NUMBER','拨打号码');
-define('TEXT_EXT_CALL_SENT','呼叫已发送'); // NOT_SURE
+define('TEXT_EXT_CALL_SENT','呼叫已发送'); // 不确定
 define('TEXT_EXT_EXPORT_TEMPLATE_TYPE_HTML_INFO','在 HTML 编辑器中调整模板');
 define('TEXT_EXT_EXPORT_TEMPLATE_TYPE_DOCX_INFO','创建模板后，请点击名称并调整要插入文档的区块。在下方上传文档模板。');
 define('TEXT_EXT_EXPORT_TEMPLATES_BLOCK_TIP','为您的模板添加信息区块。每个区块都是有输出设置的字段。要在文档中插入区块，请使用 ${id} 格式。<a href="https://docs.rukovoditel.net/index.php?p=100" target="_blank">查看详情</a>。<br>
@@ -808,15 +808,15 @@ define('TEXT_EXT_ENTER_REPORT_ID_TO_FILTER','输入报表编号以便筛选记�
 define('TEXT_EXT_EXPORT_TEMPLATES_ENTITY_BLOCK_TIP','要显示关联实体的数据，请添加必要的字段。');
 define('TEXT_EXT_EXPORT_TEMPLATES_TABLE_LIST_BLOCK_TIP','要显示表格，请添加列。每列可以显示多个字段。');
 
-//new defines for ext 2.8
+//2.8版本中扩展新定义的内容
 define('TEXT_EXT_SEND_TO_RELATED_ENTITY','发送到链接实体中的号码');
 define('TEXT_EXT_DHTMLXGANTT_PRO_INFO','本页面中的设置仅在<a href="https://dhtmlx.com/docs/products/dhtmlxGantt/download.shtml" target="_new">dhtmlxGantt</a>专业版中可用。<br>要安装 dhtmlxGantt PRO，请将 /codebase 文件夹从安装包中复制到 /js/dhtmlxGantt/Pro/');
 define('TEXT_EXT_GANTT_INFO','您可以将甘特图绑定到拥有开始日期和结束日期字段的任何实体。<a href="https://docs.rukovoditel.net/index.php?p=36" target="_blank">查看详情</a>。<br>
 甘特图使用 <a href="https://dhtmlx.com/docs/products/dhtmlxGantt/" target="_new"><u>dhtmlxGantt</u></a> 库的标准版本构建。');
 define('TEXT_EXT_AUTO_SCHEDULING','自动调度');
-define('TEXT_EXT_AUTO_SCHEDULING_INFO','使甘特图能够根据任务之间的关系自动安排任务。<a href="https://docs.dhtmlx.com/gantt/desktop__auto_scheduling.html" target="_blank">查看详情</a>。');
+define('TEXT_EXT_AUTO_SCHEDULING_INFO','使甘特图能够根据任务之间的关系自动安排任务。<a href="https://docs.dhtmlx.com/gantt/desktop__auto_scheduling.html" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_HIGHLIGHT_CRITICAL_PATH','高亮关键步骤');
-define('TEXT_EXT_HIGHLIGHT_CRITICAL_PATH_INFO','关键步骤是一系列不能延迟的任务。<a href="https://docs.dhtmlx.com/gantt/desktop__critical_path.html" target="_blank">查看详情</a>。');
+define('TEXT_EXT_HIGHLIGHT_CRITICAL_PATH_INFO','关键步骤是一系列不能延迟的任务。<a href="https://docs.dhtmlx.com/gantt/desktop__critical_path.html" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_HIDE_ZERO_VALUES','隐藏零值');
 define('TEXT_EXT_SELECT_BUTTONS_TO_DISPLAY','选择要显示的一个或多个按钮');
 define('TEXT_EXT_MULTIPLE_BUTTONS_DISPLAY_TYPE','选择多个按钮的显示方式');
@@ -830,36 +830,36 @@ define('TEXT_EXT_DELETED','已删除');
 define('TEXT_EXT_EVENT_LIMIT','事项限制');
 define('TEXT_EXT_EVENT_LIMIT_INFO','一天或一周内最多显示的事项数，其它会以弹出窗口形式显示。');
 define('TEXT_EXT_PIVOT_TABLES','透视表专业版');
-define('TEXT_EXT_PIVOT_TABLES_INFO','您可以使用此报表为所选实体建立数据透视表。创建报表后，请选择报表字段，并在报表中创建自己的计算公式。<a href="https://docs.rukovoditel.net/index.php?p=106" target="_blank">查看详情</a>。');
+define('TEXT_EXT_PIVOT_TABLES_INFO','您可以使用此报表为所选实体建立数据透视表。创建报表后，请选择报表字段，并在报表中创建自己的计算公式。<a href="https://docs.rukovoditel.net/index.php?p=106" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_REPORT_IS_OUTDATED','此报表已过期，将不再受支持。建议切换到<a href="%s">新版报表</a>。');
 define('TEXT_EXT_PIE_CHART', '饼形图');
 define('TEXT_EXT_BAR_CHART', '条形图');
 define('TEXT_EXT_COLUMN_CHART', '柱状图');
 define('TEXT_EXT_LINE_CHART', '折线图');
 define('TEXT_EXT_PYRAMID_CHART', '锥形图');
-define('TEXT_EXT_PROCESS_ACTION_SAVE_EXPORT_TEMPLATE','实体“%s”：保存用于导出的模板'); // NOT_SURE
-define('TEXT_EXT_SELECT_TEMPLATES_TO_SAVE','选择要附加到特定字段的模板。<a href="https://docs.rukovoditel.net/index.php?p=109" target="_blank">查看详情</a>。');
+define('TEXT_EXT_PROCESS_ACTION_SAVE_EXPORT_TEMPLATE','实体“%s” - 保存用于导出的模板'); // 不确定
+define('TEXT_EXT_SELECT_TEMPLATES_TO_SAVE','选择要附加到特定字段的模板。<a href="https://docs.rukovoditel.net/index.php?p=109" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_ATTACH_ATTACHMENTS_TO_EMAIL_INFO','在消息文本中添加作为附件的字段。');
-define('TEXT_EXT_ATTACH_TEMPLATE','附件模板'); // NOT_SURE
+define('TEXT_EXT_ATTACH_TEMPLATE','附件模板'); // 不确定
 define('TEXT_EXT_EXPORT_TEMPLATE_TYPE_HTML_CODE_INFO','仅使用 HTML 代码调整模板');
 define('TEXT_EXT_LABEL','标签');
 define('TEXT_EXT_EXPORT_TEMPLATE_TYPE_LABEL_INFO','使用指定的尺寸打印标签');
 define('TEXT_EXT_LABEL_SIZE','标签尺寸');
 define("TEXT_EXT_ENTER_SIZE_IN_MM",'以毫米为单位输入尺寸');
 
-//new defines for ext 2.9
+//2.9版本中扩展新定义的内容
 define('TEXT_EXT_PUBLIC_ACCESS','公开访问');
 define('TEXT_EXT_PUBLIC_ACCESS_REPORT_INFO','如果允许公开访问，则可以通过一个特殊链接打开报表。');
 define('TEXT_EXT_PUBLIC_URL','公共网址');
 define('TEXT_EXT_RESOURCE_TIMELINE','资源时间线');
-define('TEXT_EXT_RESOURCE_TIMELINE_INFO','此报表以时间线形式显示关联到特定实体的事件。可以将任意实体设置成一种资源。<a href="https://docs.rukovoditel.net/index.php?p=117" target="_blank">查看详情</a>。');
+define('TEXT_EXT_RESOURCE_TIMELINE_INFO','此报表以时间线形式显示关联到特定实体的事件。可以将任意实体设置成一种资源。<a href="https://docs.rukovoditel.net/index.php?p=117" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_RESOURCE','资源');
 define('TEXT_EXT_ENTER_COLUMN_WIDHT_IN_PP_BY_COMMA','输入各列的百分比或像素宽度，以英文逗号分隔。');
 define('TEXT_EXT_RELATED_ENTITY_FIELD','与实体“%s”关联');
 define('TEXT_EXT_RELATED_ENTITY_FIELD_INFO','请选择与实体“%s”关联的字段。');
 define('TEXT_EXT_PROCESS_ACTION_REPEAT_ITEM','实体“%s”：重复当前记录');
 define('TEXT_EXT_RSS_FEED','RSS 订阅');
-define('TEXT_EXT_RSS_FEED_INFO','为用户设置 RSS 源。用户可以在其个人账号中获得专有的 RSS 订阅源链接。<a href="https://docs.rukovoditel.net/index.php?p=121" target="_blank">查看详情</a>。');
+define('TEXT_EXT_RSS_FEED_INFO','为用户设置 RSS 源。用户可以在其个人账号中获得专有的 RSS 订阅源链接。<a href="https://docs.rukovoditel.net/index.php?p=121" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_AVAILABLE_RSS_FEEDS','可用的 RSS 订阅源');
 define('TEXT_EXT_AVAILABLE_RSS_FEEDS_INFO','可以在 RSS 阅读器中添加下列网址。');
 define('TEXT_EXT_ENALBE_ICAL_URL','允许导出');
@@ -872,11 +872,11 @@ define('TEXT_EXT_COPY_NESTED_ITEMS','复制嵌套记录');
 define('TEXT_EXT_TEMPLATES_EXPORT_ENTITY_TREE_NOTES','使用结构 {#entity_tree8: 0} 显示树形视图。');
 define('TEXT_EXT_APPLY_ENTITY_ACCESS_RULES','应用实体访问规则');
 
-//new defines for ext 3.0
+//3.0版本中扩展新定义的内容
 define('TEXT_PRINT_TEMPLATE_AFTER_PROCESS','进程完成后打印模板');
 define('TEXT_EXT_HOUR','小时');
 define('TEXT_EXT_EXPORT_SELECTED','导出选定项目');
-define('TEXT_EXT_EXPORT_SELECTED_INFO','创建用于导出选定项目的模板。提供 xlsx、csv、txt 和 docx 格式的导出。<a href="https://docs.rukovoditel.net/index.php?p=124" target="_blank">查看详情</a>。');
+define('TEXT_EXT_EXPORT_SELECTED_INFO','创建用于导出选定项目的模板。提供 xlsx、csv、txt 和 docx 格式的导出。<a href="https://docs.rukovoditel.net/index.php?p=124" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_EXPORT_SELECTED_TYPE_DOCX_INFO','创建模板后，请点击名称并调整要导出的表格。使用结构 <code>${table}</code> 将表格插入文档。');
 define('TEXT_EXT_LINK_TO_RECORD_PAGE','链接到记录页面');
 define('TEXT_EXT_SHOW_TOTALS_IN_CHART','在图表中显示总计');
@@ -892,16 +892,16 @@ define('TEXT_EXT_ON_EACH_HOUR','每小时');
 define('TEXT_EXT_NUMBER_OF_HOURS','小时数');
 define('TEXT_EXT_NUMBER_OF_HOURS_SEND_RULE_INFO','输入比较日期时对应的小时数。<br>可用的值：<code>0</code>：当前小时，<code>-1</code>：前一小时，<code>+1</code>：后一小时。您也可以指定多个值：<code>0,-1,-2,-3</code>');
 define('TEXT_EXT_PROCESS_ACTION_RUN_PHP','实体“%s”：执行 PHP 脚本');
-define('TEXT_EXT_PROCESS_ACTION_RUN_PHP_TIP','使用 [字段编号] 获取当前记录的值。<a href="https://docs.rukovoditel.net/index.php?p=125" target="_blank">查看详情</a>。');
+define('TEXT_EXT_PROCESS_ACTION_RUN_PHP_TIP','使用 [字段编号] 获取当前记录的值。<a href="https://docs.rukovoditel.net/index.php?p=125" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_WARNING_TEXT','警告文字');
 define('TEXT_EXT_PROCESSES_WARNING_MESSAGE_TIP','如果不满足筛选条件，则按下进程按钮时会显示警告文字。如果不输入警告文字，进程按钮将被隐藏。');
-define('TEXT_EXT_PROCESS_ACTION_UNLINK_RECORDS_BY_MYSQL_QUERY','关联记录“%s”：通过 MySQL 查询取消链接记录');
+define('TEXT_EXT_PROCESS_ACTION_UNLINK_RECORDS_BY_MYSQL_QUERY','关联记录"%s"- 通过 MySQL 查询取消链接记录');
 define('TEXT_EXT_PROCESS_ACTION_UNLINK_RECORDS_BY_MYSQL_QUERY_INFO','在指定条件下选中的记录会自动与当前记录解除关联。您可以在条件中使用当前记录的字段值。例如：field_12 = [126]<br>其中 12 是链接记录的字段编号，126 是当前记录的字段编号。');
 define('TEXT_EXT_RUN_PROCESS_AFTER_RECORD_UPDATE','修改记录后运行进程');
 define('TEXT_EXT_RUN_PROCESS_BEFOR_RECORD_DELETE','删除记录前运行进程');
 define('TEXT_EXT_NUMBER_OF_COPIES','复制数量');
 
-//new defines for ext 3.1
+//3.1版本中扩展新定义的内容
 define('TEXT_EXT_SAVE_ATTACHMENTS_ZIP_TIP','选择加入压缩包中的附件');
 define('TEXT_EXT_HTML_BLOCKS','HTML 区块');
 define('TEXT_EXT_EMAIL_SENDING_HTNL_BLOCK_INFO','创建用于电子邮件的 HTML 模板。');
@@ -911,37 +911,40 @@ define('TEXT_EXT_AREA_CHART','面积图');
 define('TEXT_EXT_STACKED_AREA_CHART','堆叠面积图');
 define('TEXT_EXT_ONLY_CHART','仅图表');
 define('TEXT_EXT_RUN_PROCESS_ON_SCHEDULE','按计划运行进程');
-define('TEXT_EXT_RUN_PROCESS_ON_SCHEDULE_INFO','使用下列命令按计划运行进程。<a href="https://docs.rukovoditel.net/index.php?p=133" target="_blank">查看详情</a>。');
+define('TEXT_EXT_RUN_PROCESS_ON_SCHEDULE_INFO','使用下列命令按计划运行进程。<a href="https://docs.rukovoditel.net/index.php?p=133" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_REPORT_DESIGNER','报表设计器');
-define('TEXT_EXT_REPORT_DESIGNER_INFO','在应用中创建您自己的查询，以便从任意实体选择相应数据。<a href="https://docs.rukovoditel.net/index.php?p=134" target="_blank">查看详情</a>。');
+define('TEXT_EXT_REPORT_DESIGNER_INFO','在应用中创建您自己的查询，以便从任意实体选择相应数据。<a href="https://docs.rukovoditel.net/index.php?p=134" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_PRINTABLE_REPORT','可打印报表');
 define('TEXT_EXT_SINGLE_PAGE','单页面');
 define('TEXT_EXT_REPORT_LINKED_TO_ENTITY_INFO','选择报表关联到特定记录的实体。');
 define('TEXT_EXT_TAG_X_ATTRIBUTES','标签 <code>%s</code> 的属性');
 
-//new defines for ext 3.2
+//3.2版本中扩展新定义的内容
 define('TEXT_EXT_DISPLAY_OBJECT_LIST','显示对象列表');
 define('TEXT_EXT_MAP_SIDEBAR_TIP','需要在侧边栏显示的地图上所有对象的列表。');
 define('TEXT_EXT_VERTICAL_VIEW','垂直视图');
 define('TEXT_EXT_ANSWERED','已回答');
 define('TEXT_EXT_DURATION','持续时间');
 define('TEXT_EXT_NOT_ANSWERED','未回答');
-define('TEXT_EXT_ALL_CALLS_BY_NUMBER','号码的所有通话'); // NOT_SURE
-define('TEXT_EXT_UNLISTENED','未听到'); // NOT_SURE
+define('TEXT_EXT_ALL_CALLS_BY_NUMBER','号码的所有通话'); // 不确定
+define('TEXT_EXT_UNLISTENED','未听到'); // 不确定
 define('TEXT_EXT_CREATE_GROUP','创建分组');
 define('TEXT_EXT_COMBINE_TEMPLATES_INFO','将多个模板合并到一个订阅源，将作为一个特殊的链接使用。');
 define('TEXT_EXT_MAXIMUM_TABLE_HEIGHT','表格最大高度');
 
-//new defines for ext 3.3
+//3.3版本中扩展新定义的内容
 define('TEXT_EXT_NO_FIELDS_BIND_TO_COLUMNS','没有绑定列的字段。');
 define('TEXT_EXT_EXPORT_TABLE_BUTTON_TIP','导出按钮会在表格旁边显示。');
 define('TEXT_EXT_EMAIL_NTOFICATION','邮件提醒');
-define('TEXT_EXT_EMAIL_NTOFICATION_INFO','邮件提醒可以根据配置的筛选器发送一系列记录。<a href="https://docs.rukovoditel.net/index.php?p=140" target="_blank">查看详情</a>。');
+define('TEXT_EXT_EMAIL_NTOFICATION_INFO','邮件提醒可以根据配置的筛选器发送一系列记录。<a href="https://docs.rukovoditel.net/index.php?p=140" target="_blank"><u>查看详情。</u></a>');
 define('TEXT_EXT_SEND_TO_USER_GROUP','发送给用户组');
 define('TEXT_EXT_PROCESS_ACTION_INSERT_ITEM','实体“%s”：添加记录');
 define('TEXT_EXT_PROCESS_ACTION_INSERT_ITEM_INFO','仅执行本操作，其它操作不再执行。');
 define('TEXT_EXT_TRACK_ACTIONS','跟踪操作');
 define('TEXT_EXT_TC_REPORT_TRACK_ACTIONS_NOTE','选择您想跟踪的操作。默认所有操作都会记录。');
+
+
+
 
 
 

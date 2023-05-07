@@ -861,7 +861,7 @@ define('TEXT_DEFAULT_VALUE','默认值');
 define('TEXT_DEFAULT_VALUE_INFO','输入默认值或留空。');
 define('TEXT_DO_NOT_NOTIFY','取消通知');
 define('TEXT_DO_NOT_NOTIFY_INFO','指派的用户不会收到通知。');
-define('TEXT_IS_ACTIVE','启用？');
+define('TEXT_IS_ACTIVE','是否启用？');
 define('TEXT_SEND_ON_SCHEDULE','通过 Cron 发送');
 define('TEXT_SEND_EMAILS_ON_SCHEDULE','定时发送邮件');
 define('TEXT_SEND_EMAILS_ON_SCHEDULE_INFO','启用本功能前，您需要设置好每分钟执行一次（<a href="https://docs.rukovoditel.net/index.php?p=70" target="_blank">Cron</a>）：');
@@ -1224,7 +1224,7 @@ define('TEXT_LISGIN_CONFIGURATION_INFO','您可以在本页面定制记录列表
 define('TEXT_TABLE','表格');
 define('TEXT_LIST','列表');
 define('TEXT_GRID','网格');
-define('TEXT_MOBILE','移动终端');
+define('TEXT_MOBILE','移动设备列表');
 define('TEXT_NOT_REQUIRED_FIELD','不是必填字段');
 define('TEXT_DISPLAY_FIELD_NAMES','显示字段名称');
 define('TEXT_ALIGN','对齐');

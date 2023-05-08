@@ -231,7 +231,7 @@ define('TEXT_ADD','添加');
 define('TEXT_VIEW_ALL','查看全部');
 define('TEXT_INFO','信息');
 define('TEXT_ACTION','操作');
-define('TEXT_ID','评论编号');
+define('TEXT_ID','编号');
 define('TEXT_DATE_ADDED','创建日期');
 define('TEXT_CREATED_BY','创建者');
 define('TEXT_SEARCH','搜索');

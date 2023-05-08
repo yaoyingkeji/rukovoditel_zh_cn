@@ -25,7 +25,7 @@
     {
         switch ($_GET['lng'])
         {
-            case 'chinese':
+            case 'zh-CN':
                 include('languages/zh-CN.php');
                 break;
             case 'russian':

@@ -26,7 +26,7 @@
         switch ($_GET['lng'])
         {
             case 'chinese':
-                include('languages/chinese.php');
+                include('languages/zh-CN.php');
                 break;
             case 'russian':
                 include('languages/russian.php');

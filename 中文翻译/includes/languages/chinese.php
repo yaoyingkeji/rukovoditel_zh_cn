@@ -4,7 +4,7 @@
  * 参见语言代码参考
  * http://www.w3schools.com/tags/ref_language_codes.asp
  */
-define('APP_LANGUAGE_SHORT_CODE','zh-cn');
+define('APP_LANGUAGE_SHORT_CODE','zh-CN');
 
 /**
  * 设置文本方向：（ltr或rtl）

@@ -1,8 +1,7 @@
 <?php
 
 define('TEXT_MODULE_CLOUDPAYMENTS_ID','ID');
-define('TEXT_MODULE_CLOUDPAYMENTS_ID_INFO','Идентификатор сайта, который находится в ЛК');
-define('TEXT_MODULE_CLOUDPAYMENTS_SKIN','Дизайн виджета');
-define('TEXT_MODULE_CLOUDPAYMENTS_CONFIRM_URL','Confirm-уведомление');
-define('TEXT_MODULE_CLOUDPAYMENTS_CONFIRM_URL_INFO','В личном кабинете включите Confirm-уведомление на данный адрес.');
-
+define('TEXT_MODULE_CLOUDPAYMENTS_ID_INFO','网站标识符，位于个人帐户中');
+define('TEXT_MODULE_CLOUDPAYMENTS_SKIN','小部件设计');
+define('TEXT_MODULE_CLOUDPAYMENTS_CONFIRM_URL','确认通知');
+define('TEXT_MODULE_CLOUDPAYMENTS_CONFIRM_URL_INFO','在个人帐户中启用确认通知到此地址。');

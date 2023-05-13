@@ -164,13 +164,13 @@ define('TEXT_LDAP_ERROR_INCORRECT_PASSWORD','您的密码有误，请检查并�
 define('TEXT_LDAP_ERROR_INCORRECT_USERNAME','您的用户名有误，请检查并重试。');
 
 define('TEXT_HEADING_EMAIL_OPTIONS','电子邮箱选项');
-define('TEXT_EMAIL_USE_NOTIFICATION','使用邮件通知');
+define('TEXT_EMAIL_USE_NOTIFICATION','邮件通知');
 define('TEXT_EMAIL_SUBJECT_LABEL','邮件标题标签');
 define('TEXT_EMAIL_AMOUNT_PREVIOUS_COMMENTS','邮件中以前的评论数');
 define('TEXT_EMAIL_COPY_SENDER','发送者也留一份？');
 define('TEXT_EMAIL_SEND_FROM_SINGLE','从技术支持的邮箱地址发送所有邮件');
-define('TEXT_EMAIL_ADDRESS_FROM','发送邮件的地址');
-define('TEXT_EMAIL_NAME_FROM','发送邮件者的名称');
+define('TEXT_EMAIL_ADDRESS_FROM','发件人邮箱地址');
+define('TEXT_EMAIL_NAME_FROM','发件人名称');
 define('TEXT_EMAIL_USE_SMTP','使用 SMTP');
 define('TEXT_EMAIL_SMTP_SERVER','SMTP 服务器');
 define('TEXT_EMAIL_SMTP_PORT','SMTP 端口');

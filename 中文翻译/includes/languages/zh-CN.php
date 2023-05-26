@@ -1653,7 +1653,7 @@ define('TEXT_FIELDTYPE_INPUT_ENCRYPTED_TITLE','单行加密文本');
 define('TEXT_HIDE_VALUE','隐藏值');
 define('TEXT_FIELDTYPE_INPUT_ENCRYPTED_TOOLTIP','使用指定密钥加密后保存到数据库。');
 define('TEXT_ENCRYPTION_KEY','加密密钥');
-define('TEXT_ENCRYPTION_KEY_INFO','要添加密钥，请打开 <code>config/server.php</code> 文件，<br>
+define('TEXT_ENCRYPTION_KEY_INFO','要添加密钥，请打开 <code>config/database.php</code> 文件，<br>
 在文件末尾添加：<code>define(\'DB_ENCRYPTION_KEY\',\'my_key\');</code><br>
 请使用您自己的密钥修改 <code>my_key</code> 部分。<br>
 注意：已有数据的情况下请不要修改密钥，否则原数据将丢失！');
@@ -1917,7 +1917,7 @@ define('TEXT_VALUE_FROM_SQL_TIP','从 SQL 查询输入字段名称。'); // NOT_
 define('TEXT_CALCULATOR','计算器');
 define('TEXT_DATA_IN_BORWSER_CONSOLE','数据已在浏览器控制台显示。');
 
-//新的定义内容,版本3.3
+//3.3版本的新定义
 define('TEXT_TAB','制表符');
 define('TEXT_SPACE','空格');
 define('TEXT_OTHER','其它');
@@ -1936,6 +1936,69 @@ define('TEXT_DOCS_PREVIEW','预览文档');
 define('TEXT_DOCS_PREVIEW_INFO','用户可以通过选定的服务在线预览文档，而不必下载到本地。');
 define('TEXT_IGNORE_CURRENT_DAY','忽略当天');
 define('TEXT_SENDER','发件人');
+
+//3.4版的新定义
+define('TEXT_NUMBER_DISPLAYED_CHARACTERS_IN_LIST','列表中显示的字符数');
+define('TEXT_NUMBER_DISPLAYED_CHARACTERS_IN_LIST_INFO','如果设置，则会截断长文本并添加“阅读更多”链接。');
+define('TEXT_READ_MORE','阅读更多');
+define('TEXT_FIELDTYPE_RELATED_MAIL_TITLE','相关邮件');
+define('TEXT_FIELDTYPE_RELATED_MAIL_TOOLTIP','如果您正在使用<a href="https://docs.rukovoditel.net/index.php?p=32" target="_blank">邮件集成</a>功能，则可以使用此字段类型在记录列表中显示相关邮件。<a href="https://docs.rukovoditel.net/index.php?p=147" target="_blank"><u>阅读更多。</u></a>');
+define('TEXT_COUNT_RELATED_EMAILS','相关电子邮件的数量');
+define('TEXT_LIST_RELATED_EMAILS','相关电子邮件列表');
+define('TEXT_UNREAD_EMAILS_ONLY','仅未读邮件');
+define('TEXT_HAS_RELATED_EMALS','有相关邮件');
+define('TEXT_HAS_UNREAD_RELATED_EMALS','有未读邮件');
+define('TEXT_NO_RELATED_EMALS','没有相关邮件');
+define('TEXT_DO_NOT_APPLY_RECORD_VISIBILITY_RULES','不应用记录可见性规则');
+define('TEXT_DO_NOT_APPLY_RECORD_VISIBILITY_RULES_INFO','记录可见性规则将不包含在选择记录的sql查询中');
+define('TEXT_ALLOW_SORT_ORDER','允许排序');
+define('TEXT_ALLOW_SORT_ORDER_ATTACHMENTS_TIP','在记录页面上，您将能够对附件进行排序');
+define('TEXT_DYNAMIC_MASK','动态掩码');
+define('TEXT_FORM_ADD_IN','表单“添加”');
+define('TEXT_FORM_ADD_IN_FILTERS_TIP','如果未明确指定父记录，则显示“添加”表单。为父实体的记录下拉列表设置过滤器。');
+define('TEXT_DISABLE_TIME_BY_QUERY','通过SQL查询禁用时间');
+define('TEXT_RECORDS_VISIBILITY_PHP_CODE_INFO','添加自己的php代码以选择用户可见的记录。');
+define('TEXT_DISABLE_LISTING_FIELDS_CONFIGURATION','禁用列表中字段的配置');
+define('TEXT_DISABLE_FOR_ALL','全部禁用');
+define('TEXT_DISABLE_LISTING_FIELDS_CONFIGURATION_TIP','默认情况下，每个用户都可以在列表中配置自己的列。如果禁用，则将使用标准设置。');
+define('TEXT_VIEW_ALL_RECORDS','查看所有记录');
+define('TEXT_FILENAME_TEMPLATE','文件名模板');
+define('TEXT_FIELDTYPE_ATTACHMENTS_FILENAME_TEMPLATE_NOTE','适用于：上传限制= 1');
+define('TEXT_YOU_CAN_USE','您可以使用');
+define('TEXT_FIELDTYPE_3DVIEWER_TITLE','3D模型');
+define('TEXT_FIELDTYPE_3DVIEWER_TOOLTIP','上传和预览.obj，.fbx，.stl，.gltf格式的3D模型');
+define('TEXT_VIEW_3D_MODEL_ON_RECORD_PAGE','在条目页面上查看3D模型');
+define('TEXT_VIEWPORT_HEIGHT','视口高度');
+define('TEXT_SELECT_FILE','选择文件');
+define('TEXT_LOADING','载入中...');
+define('TEXT_OBJECT_COLOR','对象颜色');
+define('TEXT_HIDE_NAME_ON_PRINT_PAGE','在打印页面上隐藏名称');
+define('TEXT_ENTER_PASSWORD_MANDATORY','输入密码是必需的');
+define('TEXT_LISTING_TYPE','列表类型');
+define('TEXT_RECORD_INFO_COLLAPSED_BY_DEFAULT','默认情况下折叠记录信息');
+define('TEXT_HIDE_FIELD_NAMES','隐藏字段名称');
+define('TEXT_HIDE_FIELD_NAMES_TIP','为节省空间，您可以在记录页面上隐藏字段名称。');
+define('DISPLAY_QR_CODE_ON_ITEM_PAGE','在记录页面上显示QR码');
+define('TEXT_ENTER_RECORDS_ID_BY_COMMA','通过逗号输入记录ID');
+define('TEXT_LISTING_HIGHLIGHT_NUMERIC_FIELDS_TOOLTIP','您还可以比较当前记录的值，例如：<code> >0&<[552] </code>');
+define('TEXT_GRID_ELEMENT_WILL_BE_CLICKABLE','网格元素将可点击并重定向到记录信息页面。');
+define('TEXT_ATTACHMENTS_SORT_ORDER','排序附件');
+define('TEXT_BY_DATE_UPLOAD','按上传日期');
+define('TEXT_BY_FILENAME','按文件名');
+define('TEXT_MANUAL_SORTING','手动排序');
+define('TEXT_ALLOW_ACCESS_FOR_ALL_USERS','允许所有用户访问');
+define('TEXT_DISPLAY_FILTER_PANEL','显示过滤面板');
+define('TEXT_DISPLAY_COPY_TO_CLIPBOARD_ICON','显示复制到剪贴板图标');
+define('TEXT_ICON_WILL_DISPLAYED_ON_RECORD_PAGE','该图标将显示在记录页面上');
+define('TEXT_COPIED','已复制');
+define('TEXT_COPY_TO_CLIPBOARD','复制到剪贴板');
+define('TEXT_DISPLAY_INPUT_FIELD_ENTER_PERSON_NAME','显示输入字段以输入人名');
+define('TEXT_DISPLAY','显示');
+define('TEXT_PAGINATION','分页');
+define('TEXT_FILTER_BY_ENTITY','按实体过滤');
+define('TEXT_FILTER_BY_GLOBAL_LIST','按全局列表过滤');
+
+
 
 
 

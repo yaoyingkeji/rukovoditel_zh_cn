@@ -943,6 +943,31 @@ define('TEXT_EXT_PROCESS_ACTION_INSERT_ITEM_INFO','Only this action will be run 
 define('TEXT_EXT_TRACK_ACTIONS','Track actions');
 define('TEXT_EXT_TC_REPORT_TRACK_ACTIONS_NOTE','Select the actions you want to track. By default, all are tracked.');
 
+//new defines for ext 3.4
+define('TEXT_EXT_EXPORT_TEMPLATES_XLSX_BLOCK_TIP','Add information blocks for your template. Each block is a field with output settings. To insert a block in a document, use <code>${block_id}</code>.  <a href="https://docs.rukovoditel.net/index.php?p=145" target="_blank"><u>Read more.</u></a><br>
+Current date: <code>${current_date}</code> or <code>${current_date_time}</code>');
+define('TEXT_EXT_REMINDER','Reminder');
+define('TEXT_EXT_CALENDAR_REMINDER_INFO','Set up a reminder for calendar events.<a href="https://docs.rukovoditel.net/index.php?p=146" target="_blank"><u>Read more.</u></a>');
+define('TEXT_EXT_POPUP','Popup');
+define('TEXT_EXT_PUSH_REMINDER','PUSH Notification');
+define('TEXT_EXT_MINUTES','Minutes');
+define('TEXT_EXT_CALENDAR_REMINDER_MINUTES_INFO','The time for which the reminder will be triggered.');
+define('TEXT_EXT_HTML_ALLOWED','You can use HTML tags.');
+define('TEXT_EXT_CONFIRM','Confirm');
+define('TEXT_EXT_REMIND_LATER','Remind later');
+define('TEXT_EXT_MINUTES_AFTER','minutes');
+define('TEXT_EXT_REMIND_AFTER','Remind after');
+define('TEXT_EXT_EXPORT_SELECTED_TYPE_XLSX_INFO','If the xlsx template file is loaded, the data will be loaded into Sheet 1. In Sheet 2, you can prepare formulas for further work with this document.');
+define('TEXT_EXT_ENTER_ALLOWED_IP_BY_COMMA','Enter the allowed IP addresses separated by commas');
+define('TEXT_EXT_CALL','Call');
+define('TEXT_EXT_KANBAN_VIEW_ONLY_ACCESS_NOTE','Please note: if "View Only" access is set to the selected field, the user will not be able to move the cards in the report.');
+define('TEXT_EXT_SPLINE_CHART','Spline (smoothed line chart)');
+define('TEXT_EXT_PROCESS_ACTION_DELETE_ITEM','Entity "%s" - delete record');
+define('TEXT_EXT_ENTER_MESSAGE','Enter message');
+define('TEXT_EXT_MAIL_TEMPLATES','Email templates');
+define('TEXT_EXT_MAIL_TEMPLATES_INFO','Compose your reply once as a template');
+
+
 
 
 

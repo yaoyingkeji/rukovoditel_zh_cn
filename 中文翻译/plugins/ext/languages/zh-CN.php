@@ -943,6 +943,30 @@ define('TEXT_EXT_PROCESS_ACTION_INSERT_ITEM_INFO','仅执行本操作，其它�
 define('TEXT_EXT_TRACK_ACTIONS','跟踪操作');
 define('TEXT_EXT_TC_REPORT_TRACK_ACTIONS_NOTE','选择您想跟踪的操作。默认所有操作都会记录。');
 
+//3.4版本的扩展新定义
+define('TEXT_EXT_EXPORT_TEMPLATES_XLSX_BLOCK_TIP','为您的模板添加信息块。每个块都是具有输出设置的字段。要在文档中插入块，请使用<code>${block_id}</code>。<a href="https://docs.rukovoditel.net/index.php?p=145" target="_blank"><u>阅读更多。</u></a><br>
+当前日期：<code>${current_date}</code>或<code>${current_date_time}</code>');
+define('TEXT_EXT_REMINDER','提醒');
+define('TEXT_EXT_CALENDAR_REMINDER_INFO','为日历事件设置提醒。<a href="https://docs.rukovoditel.net/index.php?p=146" target="_blank"><u>阅读更多。</u></a>');
+define('TEXT_EXT_POPUP','弹出');
+define('TEXT_EXT_PUSH_REMINDER','推送通知');
+define('TEXT_EXT_MINUTES','分钟');
+define('TEXT_EXT_CALENDAR_REMINDER_MINUTES_INFO','提醒将被触发的时间。');
+define('TEXT_EXT_HTML_ALLOWED','您可以使用HTML标记。');
+define('TEXT_EXT_CONFIRM','确认');
+define('TEXT_EXT_REMIND_LATER','稍后提醒');
+define('TEXT_EXT_MINUTES_AFTER','分钟后');
+define('TEXT_EXT_REMIND_AFTER','稍后提醒');
+define('TEXT_EXT_EXPORT_SELECTED_TYPE_XLSX_INFO','如果加载了xlsx模板文件，则数据将加载到Sheet 1中。在Sheet 2中，您可以准备公式以进一步处理此文档。');
+define('TEXT_EXT_ENTER_ALLOWED_IP_BY_COMMA','输入允许的IP地址，用逗号分隔');
+define('TEXT_EXT_CALL','呼叫');
+define('TEXT_EXT_KANBAN_VIEW_ONLY_ACCESS_NOTE','请注意：如果将“仅查看”访问权限设置为所选字段，则用户将无法在报告中移动卡片。');
+define('TEXT_EXT_SPLINE_CHART','样条（平滑线图）');
+define('TEXT_EXT_PROCESS_ACTION_DELETE_ITEM','实体“%s”-删除记录');
+define('TEXT_EXT_ENTER_MESSAGE','输入消息');
+define('TEXT_EXT_MAIL_TEMPLATES','电子邮件模板');
+define('TEXT_EXT_MAIL_TEMPLATES_INFO','将您的回复组合成一次模板');
+
 
 
 

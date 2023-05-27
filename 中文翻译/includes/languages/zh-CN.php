@@ -1224,7 +1224,7 @@ define('TEXT_LISGIN_CONFIGURATION_INFO','您可以在本页面定制记录列表
 define('TEXT_TABLE','表格');
 define('TEXT_LIST','列表');
 define('TEXT_GRID','网格');
-define('TEXT_MOBILE','移动设备列表');
+define('TEXT_MOBILE','移动设备');
 define('TEXT_NOT_REQUIRED_FIELD','不是必填字段');
 define('TEXT_DISPLAY_FIELD_NAMES','显示字段名称');
 define('TEXT_ALIGN','对齐');
